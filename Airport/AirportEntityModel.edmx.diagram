@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e3aea0a72f674552890b7253e6c9af42" Name="Diagram1">
+        <EntityTypeShape EntityType="KøbenhavnsLufthavnModel.Airport" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KøbenhavnsLufthavnModel.Company" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KøbenhavnsLufthavnModel.Plane" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KøbenhavnsLufthavnModel.PlaneRoute" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="KøbenhavnsLufthavnModel.FK__PlaneRout__Airpo__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="KøbenhavnsLufthavnModel.FK__PlaneRout__Airpo__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="KøbenhavnsLufthavnModel.FK__PlaneRout__Route__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="KøbenhavnsLufthavnModel.FK__Plane__RouteId__440B1D61" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
